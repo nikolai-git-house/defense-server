@@ -1,0 +1,16 @@
+{
+  "development": {
+    "database": "harold1",
+    "user": "u174jeoakvsvrt",
+    "password": "p485136ab3ac80e9f788acfd904fec8d6b0266b65379c23d802f127a393c7fbe4",
+    "port": 5432,
+    "host":"localhost"
+  },
+  "production": {
+    "database": "d20sc4h8rhdj0g",
+    "user": "u174jeoakvsvrt",
+    "password": "p485136ab3ac80e9f788acfd904fec8d6b0266b65379c23d802f127a393c7fbe4",
+    "port": 5432,
+    "host": "ec2-52-6-170-45.compute-1.amazonaws.com"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "foorera",
+  "version": "1.5.2",
+  "description": "Foorera API",
+  "main": "server.js",
+  "scripts": {
+    "development": "nodemon server.js",
+    "start": "NODE_ENV=production && node server.js"
+  },
+  "author": "Andrea Amorosi",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "pg": "^6.1.5",
+    "pg-hstore": "^2.3.2",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1",
+    "restify": "^4.1.1",
+    "restify-validator": "^0.3.1",
+    "sequelize": "^3.24.4",
+    "sequelize-cli": "^2.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.1.2",
+    "nodemon": "^1.11.0"
+  }
+}
