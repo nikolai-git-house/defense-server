@@ -4,6 +4,7 @@ var restifyValidator = require('restify-validator')
 var routes = require('./routes/index')
 var server = restify.createServer()
 
+var port = process.env.PORT || 3000;
 server.use(restify.bodyParser())
 server.use(restify.queryParser())
 server.use(restifyValidator)
@@ -25,8 +26,8 @@ server.get('/topAwardAmountByPsc', routes.awardAmountByPsc.getTopAwardAmountByPs
 server.get('/awardAmountByNaics', routes.awardAmountByNaics.getAwardAmountByNaics);
 server.get('/topAwardAmountByNaics', routes.awardAmountByNaics.getTopAwardAmountByNaics);
 server.get('/awardAmountByDodAgency', routes.awardAmountByDodAgency.getAwardAmountByDodAgency);
-server.listen(3000, function () {
-  console.log('REST API Server listening at http://localhost:3000')
+server.listen(port, function () {
+  console.log('REST API Server listening at http://localhost:' + port);
 })
 
 // for testing
