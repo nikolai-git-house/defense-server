@@ -13,6 +13,9 @@ var sequelize
 sequelize = new Sequelize(config.database, config.user, config.password, {
   host: config.host,
   dialect: 'postgres',
+  dialectOptions: {
+      ssl: true
+  },
   define: {
     timestamps: false,
     createdAt: false,
