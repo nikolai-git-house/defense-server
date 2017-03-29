@@ -1,7 +1,7 @@
 {
-  "name": "foorera",
+  "name": "defense",
   "version": "1.5.2",
-  "description": "Foorera API",
+  "description": "Defense API",
   "main": "server.js",
   "scripts": {
     "development": "nodemon server.js",
