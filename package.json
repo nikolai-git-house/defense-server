@@ -7,7 +7,7 @@
     "development": "nodemon server.js",
     "start": "NODE_ENV=production && node server.js"
   },
-  "author": "Kevin Hartman",
+  "author": "prosunshining",
   "license": "Apache-2.0",
   "dependencies": {
     "pg": "^6.1.5",
